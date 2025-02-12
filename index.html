@@ -1,8 +1,50 @@
-<html>
-  <head>
-    <title>Body bgcolor Attribute example</title>
-  </head>
-  <body bgcolor="#afafaf">
-    <h1>This webpage has colored background.</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #fff;
+            background: #ff6f61;
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 10px;
+        }
+        p {
+            color: #fff;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            background: #6a0572;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #c71585;
+        }
+    </style>
+</head>
+<body>
+    <h1>Deployed the app through docker container</h1>
+    <h2>connected with Jenkins</h2>
+    <h2>created a container for httpd server through Jenkins script</h2>
+    <h2>image build by dockerfile that is present on Git repo</h2>
+    <h2>then Script helped to build the image from docker file and created the container also</h2>
+    <p>Enjoy the learning the docker .</p>
+    <h1>I am Rakesh who done this task.</h1>
+</body>
 </html>
